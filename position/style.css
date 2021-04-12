@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 50vmin;
+  height: 50vmin;
+  border: 2vmin solid black;
+  position: relative;
+}
+
+.child {
+  background-color: salmon;
+  font-size: 5vmin;
+  padding: 2vmin;
+}
+
+#first {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#second {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#third {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+#fourth {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
