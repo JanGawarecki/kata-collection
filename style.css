@@ -1,0 +1,12 @@
+body {
+  margin: 0px;
+  background-color: cornsilk;
+}
+
+main {
+  border: 5px solid darkorange;
+  color: darkolivegreen;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100px;
+}
