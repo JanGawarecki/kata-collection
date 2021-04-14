@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: saddlebrown;
+}
+
+.box {
+  background-color: peru;
+  width: 1vmax;
+  height: 30vmin;
+}
+
+.box:hover,
+.box:hover ~ .box {
+  background-color: goldenrod;
+}
